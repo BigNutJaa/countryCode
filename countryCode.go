@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func country(code string) (string, error) {
+func Country(code string) (string, error) {
 
 	country := map[string]string{"TH": "Thailand", "HK": "Hongkong", "JP": "Japan", "CN": "China", "US": "America"}
 
